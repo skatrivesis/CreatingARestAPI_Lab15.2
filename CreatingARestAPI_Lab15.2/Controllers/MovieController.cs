@@ -27,13 +27,13 @@ namespace CreatingARestAPI_Lab15._2.Controllers
             return SingleMovie;
         }
 
-        [HttpGet("categories")]
+        [HttpGet("category")]
         public string[] GetAllMovieCategories()
         {
             return dal.GetMovieCategories();
         }
 
-        [HttpGet("all")]
+        [HttpGet]
         public IEnumerable<Movie> Get(string category = null)
         {
             if (category == null)
@@ -57,13 +57,6 @@ namespace CreatingARestAPI_Lab15._2.Controllers
             {
                 return dal.GetRandomMovieByCategory(category);
             }
-        }
-
-        private readonly ILogger<WeatherForecastController> _logger;
-
-        public MovieController(ILogger<WeatherForecastController> logger)
-        {
-            _logger = logger;
         }
     }
 }
