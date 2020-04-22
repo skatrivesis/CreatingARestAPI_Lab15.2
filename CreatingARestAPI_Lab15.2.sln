@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreatingARestAPI_Lab15.2", "CreatingARestAPI_Lab15.2\CreatingARestAPI_Lab15.2.csproj", "{B418A18E-8918-410F-9238-B5CE14CCA4CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B418A18E-8918-410F-9238-B5CE14CCA4CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B418A18E-8918-410F-9238-B5CE14CCA4CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B418A18E-8918-410F-9238-B5CE14CCA4CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B418A18E-8918-410F-9238-B5CE14CCA4CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6EFB0912-8CC7-4670-94C4-F85184FFC92F}
+	EndGlobalSection
+EndGlobal
